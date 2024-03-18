@@ -16,7 +16,7 @@ public class BandOfTheHour {
         //Scanner for input
         private Scanner scanner;
 
-        /*
+        /**
         Constructor used to initialize scanner and set up initial configuration
          */
         public BandOfTheHour() { //start of the BandOfTheHour method
@@ -24,7 +24,7 @@ public class BandOfTheHour {
             initializeStadium();
         } //end of the BandOfTheHour method
 
-        /*
+        /**
         Method used to initialize stadium by setting the number of rows and the number of
         positions within each row
         */
@@ -57,10 +57,10 @@ public class BandOfTheHour {
             System.out.println();
         } //end of the initializeStadium method
 
-        /*
+        /**
         Prints the current assignment of musicians to the console.
-        For each row, this method prints the row label, the weight of each musician in the row,
-        the total row weight, and the average row weight.
+'        For each row, this method prints the row label, the weight of each musician in the row,
+'        the total row weight, and the average row weight.
         */
 
         public void printAssignment() { //start of the printAssignment method
@@ -77,7 +77,7 @@ public class BandOfTheHour {
             }
         } //end of the printAssignment method
 
-        /*
+         /**
          Adds a musician to a specified position in a row. Prompts for the row, position,
          and weight of the musician, validating each input against constraints.
          If a musician is added, the method updates to reflect this change.
@@ -124,7 +124,7 @@ public class BandOfTheHour {
             System.out.println("****** Musician added.");
         } //end of the addMusician method
 
-        /*
+        /**
         Removes a musician from a specific position in a row. The row and position are removed.
         If the position is occupied, the method updates to mark the position as vacant.
         */
@@ -154,7 +154,7 @@ public class BandOfTheHour {
             System.out.println("****** Musician removed.");
         } //end of the removeMusician method
 
-        /*
+        /**
         Starts the application, allowing the addition or removal of musicians, print the current assignment,
         or exit the program. Handles user input and calls the appropriate methods based on the choices of input.
         */
